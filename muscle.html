@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Musclevents</title>
+</head>
+<body>
+    <header class="event">
+        <div class="event-description">
+            <h2>Musclevents</h2>
+            <p class="about-event">Onde o Conhecimento Encontra a Força</p>
+            <p>Data do evento:</p>
+            <p class="event-date">Domingo, 16 de abril, a partir das 14h</p>
+        </div>
+        <div class="subscription-form">
+            <p>Preencha o formulário para receber os detalhes do evento</p>
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="text" name="phone" id="phone" placeholder="Número de Whatsapp" required>
+                </div>
+                <div class="form-group">
+                    <label for="interest">Principais interesses</label>
+                    <select name="interest" id="interest">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="weight-gain">Ganho de peso</option>
+                        <option value="weight-loss">Perca de peso</option>
+                        <option value="strength-increase">Aumento de força</option>
+                        <option value="other">Outros..</option>
+                    </select>
+                </div>
+                <input type="submit" value="Quero me inscrever" class="btn">
+            </form>
+        </div>
+    </header>
+    <section class="about-benefits">
+        <h2>Oque você vai aprender:</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <div id="benefit-1" class="benefit-img"></div>
+                <p>Controle de Peso</p>
+            </div>
+            <div class="benefit">
+                <div id="benefit-2" class="benefit-img"></div>
+                <p>Foco e Disposição</p>
+            </div>
+            <div class="benefit">
+                <div id="benefit-3" class="benefit-img"></div>
+                <p>Massa Muscular</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
