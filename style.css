@@ -302,3 +302,144 @@
 .footer p {
     margin-bottom: .8em;
 }
+
+
+@media(max-width: 1260px) {
+    .event {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .event-description {
+        padding: 2em;
+    }
+
+    .subscription-form {
+        max-width: 70%;
+        margin-bottom: 1em;
+    }
+
+    .benefits {
+        gap: 3%;
+    }
+}
+
+/*Media query 768px*/
+@media(max-width:768px) {
+    .event {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .event-description {
+        padding: 2em;
+    }
+
+    .subscription-form {
+        max-width: 70%;
+        margin-bottom: 1em;
+    }
+
+    .benefits {
+        flex-wrap: wrap;
+    }
+
+    .benefit {
+        margin-bottom: 1em;
+    }
+
+    #detail-1 h3 {
+        font-size: 2em;
+    }
+}
+
+/*Media query 450px*/
+@media(max-width: 450px) {
+    .event {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .event-description {
+        padding: 2em;
+    }
+
+    .event-description h2 {
+        font-size: 3em;
+        margin-bottom: .5em;
+    }
+
+    .subscription-form {
+        max-width: 70%;
+        margin-bottom: 1em;
+    }
+
+    .benefits {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 2em;
+    }
+
+    .benefit {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .location {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    .addres {
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .addres i {
+        margin: .3em 0;
+    }
+
+    .about-location {
+        order: 1;
+        max-width: 100%;
+    }
+
+    .about-location h3 {
+        margin-bottom: 0;
+    }
+
+    .about-location p {
+        display: none;
+    }
+
+    .detail {
+        flex-direction: column;
+        margin-bottom: .5em;
+        gap: 0;
+    }
+
+    .detail img {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    #detail-3 img {
+        order: 2;
+    }
+
+    #detail-3 .detail-description {
+        order: 1;
+    }
+
+    .requests-registration {
+        text-align: center;
+    }
+
+    .requests-registration .btn {
+        width: 80%;
+    }
+}   
