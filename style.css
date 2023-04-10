@@ -15,6 +15,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    margin-bottom: 350px;
+}
+
 /*Event Header*/
 
 .event {
@@ -155,4 +159,50 @@
 #benefit-3 {
     background-position: center;
     background-image: url(images/muscle-mass.jpg);
+}
+
+/*Location*/
+.location {
+    height: 450px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/location.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    color: var(--text-color);
+}
+
+.addres,
+.about-location {
+    max-width: 30%;
+}
+
+.addres {
+    display: flex;
+}
+
+.addres i {
+    font-size: 3.5em;
+    color: var(--primary);
+    margin-right: .5em;
+}
+
+.addres-details p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.about-location h3 {
+    color: var(--primary);
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.about-location p {
+    font-size: 1em;
+    line-height: 1.5;
 }
