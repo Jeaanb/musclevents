@@ -15,10 +15,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    margin-bottom: 350px;
-}
-
 /*Event Header*/
 
 .event {
@@ -170,7 +166,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     color: var(--text-color);
 }
 
@@ -205,4 +201,104 @@ body {
 .about-location p {
     font-size: 1em;
     line-height: 1.5;
+}
+
+/*Details*/
+.details {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+
+.detail img {
+    width: 50%;
+}
+
+.detail h3 {
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#detail-1 h3 {
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.detail-description {
+    width: 100%;
+    padding-left: 2em;
+}
+
+.detail-description ul {
+    list-style-position: inside;
+}
+
+.detail-description ul li {
+    margin-bottom: .8em;
+}
+
+.detail-description ul li:last-child {
+    font-weight: bold;
+}
+
+/*Requests*/
+.requests-registration {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/location.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--text-color);
+}
+
+.requests-registration h3 {
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 1.2em;
+}
+
+.requests-registration .btn {
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em
+}
+
+/*Footer*/
+.footer {
+    text-align: center;
+    color: var(--secondary);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer h3 {
+    font-size: 1.8em;
+    margin-bottom: .5em;
+}
+
+.footer p:nth-child(2) {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.footer span {
+    font-weight: bold;
+}
+
+.footer p {
+    margin-bottom: .8em;
 }
